@@ -31,7 +31,7 @@ jobs:
 
 
     - name: Publish application
-      run: dotnet publish "Lab14-OsmarAE.csproj" --configuration Release --output ./published --no-build
+      run: dotnet publish "Lab14-OsmarAE/Lab14-OsmarAE.csproj" --configuration Release --output ./published --no-build
 
 
     - name: Deploy to server (ejemplo de despliegue)
