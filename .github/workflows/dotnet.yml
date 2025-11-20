@@ -4,7 +4,7 @@ name: Build and Deploy .NET Application
 on:
   push:
     branches:
-      - main # Automáticamente se ejecuta cuando se suben cambios a la rama principal
+      - master # Automáticamente se ejecuta cuando se suben cambios a la rama principal
 
 
 jobs:
