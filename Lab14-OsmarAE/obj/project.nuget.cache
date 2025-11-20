@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "4lJkHkyIx+c=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\wilfr\\RiderProjects\\Lab14-OsmarAE\\Lab14-OsmarAE\\Lab14-OsmarAE.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\wilfr\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.8\\microsoft.aspnetcore.openapi.9.0.8.nupkg.sha512",
+    "C:\\Users\\wilfr\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}

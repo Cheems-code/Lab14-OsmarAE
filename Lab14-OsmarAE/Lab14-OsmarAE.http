@@ -1,0 +1,6 @@
+@Lab14_OsmarAE_HostAddress = http://localhost:5229
+
+GET {{Lab14_OsmarAE_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

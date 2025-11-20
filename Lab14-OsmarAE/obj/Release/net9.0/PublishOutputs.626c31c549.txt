@@ -1,0 +1,9 @@
+C:\lab14_deply\Lab14-OsmarAE.exe
+C:\lab14_deply\appsettings.Development.json
+C:\lab14_deply\appsettings.json
+C:\lab14_deply\Lab14-OsmarAE.dll
+C:\lab14_deply\Lab14-OsmarAE.deps.json
+C:\lab14_deply\Lab14-OsmarAE.runtimeconfig.json
+C:\lab14_deply\Lab14-OsmarAE.pdb
+C:\lab14_deply\Microsoft.AspNetCore.OpenApi.dll
+C:\lab14_deply\Microsoft.OpenApi.dll
