@@ -36,7 +36,8 @@ jobs:
 
     - name: Deploy to server (ejemplo de despliegue)
       run: |
-        scp -r ./published username@server:/path/to/deploy
+        echo "Archivos publicados listos para el despliegue:"
+        ls -R ./published
 
 
 
