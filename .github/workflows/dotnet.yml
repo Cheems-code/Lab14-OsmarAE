@@ -27,11 +27,11 @@ jobs:
 
 
     - name: Build application
-      run: dotnet build --configuration Release
+      run: dotnet build --configuration Release --no-restore
 
 
     - name: Publish application
-      run: dotnet publish --configuration Release --output ./published
+      run: dotnet publish "Lab14-OsmarAE.csproj" --configuration Release --output ./published --no-build
 
 
     - name: Deploy to server (ejemplo de despliegue)
