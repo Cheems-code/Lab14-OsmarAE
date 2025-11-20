@@ -1,7 +1,5 @@
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 
 var app = builder.Build();
@@ -32,6 +30,13 @@ app.MapGet("/weatherforecast", () =>
         return forecast;
     })
     .WithName("GetWeatherForecast");
+
+// Render define el puerto a través de la variable de entorno PORT.
+// Esta línea le dice que escuche en cualquier IP (*) en el puerto que Render le asigne.
+// Si la variable no existe, usará el puerto 8080 por defecto.
+var port = Environment.GetEnvironmentVariable("PORT") ?? "8080";
+app.Urls.Add($"http://*:{port}");
+
 
 app.Run();
 
